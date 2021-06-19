@@ -107,13 +107,12 @@ p {
 
 
 .menu {
-    list-style: none;
-    position: fixed;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-    z-index: 10;
-    
+position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10.;
 }
 
 
@@ -126,11 +125,14 @@ p {
     padding-right: 9px;
     padding-bottom: 5px;
     font-family: "Pangolin", cursive;
-    font-size: 20px
+    font-size: 20px;
+    display: inline;
 }
 
 .links:hover {
     background-color: aqua;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 html {
@@ -139,6 +141,12 @@ html {
 
 a {
     text-decoration: none;
+    color: #2BE;
+    text-shadow: 2px 2px, gainsboro;
+}
+#hobby a
+{
+    text-shadow: none;
 }
 
 
@@ -154,4 +162,17 @@ a {
 img:hover
 {
   transform: scale(0.9);
+}
+#contact
+{
+    background: firebrick;
+}
+.Contact1 a
+{
+    color: white;
+    text-shadow: none;
+}
+.Contact1 h3
+{
+    display: inline;
 }
